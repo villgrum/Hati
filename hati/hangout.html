@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Hati, Baguio trip</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Bricolage+Grotesque:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Hati</a>
+      <a class="top-link" href="index.html">All groups</a>
+    </div>
+  </header>
+  <main class="wrap narrow">
+    <div class="group-top">
+      <div class="group-title">
+        <h1>Baguio trip</h1>
+        <span class="role">Holder</span>
+      </div>
+      <a class="button small" href="bill.html">Add a bill</a>
+    </div>
+    <p class="role-note">4 people, only you can change anything</p>
+    <nav class="tabs" aria-label="Group sections">
+      <a href="hangout.html" aria-current="page">Overview</a>
+      <a href="#">Bills</a>
+      <a href="settle.html">Settle up</a>
+      <a href="#">History</a>
+    </nav>
+    <details class="claims">
+      <summary>
+        <span class="dot"></span>
+        <span>2 claims waiting</span>
+        <span class="hint">Tap to review</span>
+      </summary>
+      <div class="claim">
+        <p class="bubble"><span class="who">Ben</span>Paid for Transport <strong>₱120</strong></p>
+        <div class="actions">
+          <button class="button small" type="button">Confirm</button>
+          <button class="link-button" type="button">Reject</button>
+        </div>
+      </div>
+      <div class="claim">
+        <p class="bubble"><span class="who">Dan</span>Paid <strong>Ana</strong> <strong>₱700</strong> by GCash</p>
+        <div class="actions">
+          <button class="button small" type="button">Confirm</button>
+          <button class="link-button" type="button">Reject</button>
+        </div>
+      </div>
+    </details>
+    <section class="panel">
+      <p class="big-line">₱12,400 spent on 6 bills</p>
+      <div class="meter" role="img" aria-label="₱700 of ₱4,900 settled"><span style="--w: 14.3%"></span></div>
+      <p class="sub"><strong>₱700</strong> of <strong>₱4,900</strong> settled, <a href="settle.html">see who pays whom</a></p>
+    </section>
+    <section class="panel">
+      <h2 class="section-title">Where everyone stands</h2>
+      <table class="standing">
+        <thead>
+          <tr><th>Name</th><th>Paid</th><th>Their share</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Ana</strong></td><td><strong>₱8,000</strong></td><td>₱3,100</td><td class="waits">Waiting for ₱4,200</td></tr>
+          <tr><td><strong>Ben</strong></td><td><strong>₱2,400</strong></td><td>₱3,100</td><td class="done">Settled</td></tr>
+          <tr><td><strong>Carla</strong></td><td><strong>₱2,000</strong></td><td>₱3,100</td><td class="owes">Needs to pay ₱1,100</td></tr>
+          <tr><td><strong>Dan</strong></td><td><strong>₱0</strong></td><td>₱3,100</td><td class="owes">Needs to pay ₱3,100</td></tr>
+        </tbody>
+      </table>
+      <p class="explain">Their share is each person's part of all 6 bills</p>
+      <p class="suggest"><strong>Suggestion for the next bill:</strong> <strong>Dan</strong>, who has paid the least so far</p>
+    </section>
+    <section class="panel">
+      <h2 class="feed-title">Latest changes</h2>
+      <div class="feed">
+        <p><strong>Ana</strong> added Dinner, <strong>₱1,200</strong><span class="time">Tonight</span></p>
+        <p><strong>Ana</strong> changed Dinner from <strong>₱1,000</strong> to <strong>₱1,200</strong><span class="time">Tonight</span></p>
+        <p><strong>Ben</strong> added Coffee, <strong>₱600</strong><span class="time">Yesterday</span></p>
+      </div>
+    </section>
+    <p class="panel"><button class="button ghost" type="button">Print report</button></p>
+  </main>
+</body>
+</html>

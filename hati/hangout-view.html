@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Hati, Cebu weekend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Bricolage+Grotesque:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="index.html">Hati</a>
+      <a class="top-link" href="index.html">All groups</a>
+    </div>
+  </header>
+  <main class="wrap narrow">
+    <div class="group-top">
+      <div class="group-title">
+        <h1>Cebu weekend</h1>
+        <span class="role view">View only</span>
+      </div>
+      <button class="button ghost small" type="button">Refresh</button>
+    </div>
+    <p class="role-note">Held by <strong>Ana</strong>, ask Ana to change anything</p>
+    <nav class="tabs" aria-label="Group sections">
+      <a href="hangout-view.html" aria-current="page">Overview</a>
+      <a href="#">Bills</a>
+      <a href="#">Settle up</a>
+      <a href="#">History</a>
+    </nav>
+    <section class="panel">
+      <p class="big-line">₱9,500 spent on 4 bills</p>
+      <div class="meter" role="img" aria-label="₱1,000 of ₱3,800 settled"><span style="--w: 26.3%"></span></div>
+      <p class="sub"><strong>₱1,000</strong> of <strong>₱3,800</strong> settled</p>
+    </section>
+    <section class="panel">
+      <h2 class="section-title">Where everyone stands</h2>
+      <table class="standing">
+        <thead>
+          <tr><th>Name</th><th>Paid</th><th>Their share</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Ana</strong></td><td><strong>₱5,700</strong></td><td>₱1,900</td><td class="waits">Waiting for ₱2,800</td></tr>
+          <tr><td><strong>Mika</strong></td><td><strong>₱1,900</strong></td><td>₱1,900</td><td class="done">Settled</td></tr>
+          <tr><td><strong>Joel</strong></td><td><strong>₱1,900</strong></td><td>₱1,900</td><td class="done">Settled</td></tr>
+          <tr><td><strong>Rey</strong></td><td><strong>₱0</strong></td><td>₱1,900</td><td class="owes">Needs to pay ₱1,900</td></tr>
+          <tr><td><strong>Lia</strong></td><td><strong>₱0</strong></td><td>₱1,900</td><td class="owes">Needs to pay ₱900</td></tr>
+        </tbody>
+      </table>
+      <p class="explain">Their share is each person's part of all 4 bills</p>
+    </section>
+    <section class="panel">
+      <h2 class="feed-title">Latest changes</h2>
+      <div class="feed">
+        <p><strong>Ana</strong> added Van rental, <strong>₱3,000</strong><span class="time">Saturday</span></p>
+        <p><strong>Ana</strong> marked <strong>Lia</strong>'s payment of <strong>₱1,000</strong> as paid<span class="time">Sunday</span></p>
+      </div>
+    </section>
+    <p class="panel"><button class="button ghost" type="button">Print report</button></p>
+  </main>
+</body>
+</html>
